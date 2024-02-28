@@ -9,7 +9,7 @@ export default function Header() {
         className=" flex justify-between items-center
       max-w-6xl mx-auto p-3"
       >
-        <Link to={"/"}>
+        <Link to={"/home"}>
           <h1 className="font-bold">Auth App</h1>
         </Link>
         <ul className="flex gap-4">
